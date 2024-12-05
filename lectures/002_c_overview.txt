@@ -1,0 +1,12 @@
+C Overview
+    c เป็นภาษาระดังสูง ใช้งานง่ายและมีประสิทธิภาพสูง
+    สามารถสร้างโปรแกรมได้ทุกรูปแบบ เช่น ระบบปฏิบัติการ
+
+    ภาษา c ถูกใช้อย่างแพร่หลายใน mini computer, unix/linux, pc, mainframe และ embedded systems
+
+    c เป็น subset ของ c++
+
+    c สามารถทำงานบนระบบอะไรก็ได้ เช่น 
+        - windows
+        - linux 
+        - mac os
