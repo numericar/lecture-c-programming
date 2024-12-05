@@ -1,0 +1,13 @@
+Install 
+    - ติดตั้ง cygwin
+    - ในขั้นตอนของ cygwin ให้ทำการติดตั้ง 
+        - gcc-core 
+        - gdb
+        - libgdbm6
+        - make
+
+    หลังจากนั้นทำการเพิ่ม environment variable 
+    C:\cygwin64\bin
+
+    และสามารถใช้คำสั่ง cygcheck -c cygwin เพื่อตรวจสอบเวอร์ชันของ cyg 
+    และสามารถใช้คำสั่ง gcc --version เพื่อตรวจสอบว่า gcc ได้ถูกติดตั้งแล้วหรือยัง
