@@ -1,0 +1,4 @@
+Setup step project setting 
+    :: General > cygwin
+    :: Compiler > C Compiler Option > enable c99
+    :: Linker > Linker Options > Static Linking

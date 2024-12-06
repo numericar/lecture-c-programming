@@ -1,0 +1,9 @@
+[{
+  "file": "D:\\GitHubs\\lecture-c-programming\\workspaces\\WorkspaceTemplate\\Project2\\main.c",
+  "directory": "D:\\GitHubs\\lecture-c-programming\\workspaces\\WorkspaceTemplate\\Project2",
+  "command": "C:/cygwin64/bin/gcc.exe -c D:\\GitHubs\\lecture-c-programming\\workspaces\\WorkspaceTemplate\\Project2\\main.c -o D:\\GitHubs\\lecture-c-programming\\workspaces\\WorkspaceTemplate\\Project2\\main.c.o  -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "D:\\GitHubs\\lecture-c-programming\\workspaces\\WorkspaceTemplate\\Project1\\main.c",
+  "directory": "D:\\GitHubs\\lecture-c-programming\\workspaces\\WorkspaceTemplate\\Project1",
+  "command": "C:/cygwin64/bin/gcc.exe -c D:\\GitHubs\\lecture-c-programming\\workspaces\\WorkspaceTemplate\\Project1\\main.c -o D:\\GitHubs\\lecture-c-programming\\workspaces\\WorkspaceTemplate\\Project1\\main.c.o  -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }]

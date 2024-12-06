@@ -1,0 +1,2 @@
+D:\GitHubs\lecture-c-programming\workspaces\WorkspaceTemplate\Project2\main.c
+D:\GitHubs\lecture-c-programming\workspaces\WorkspaceTemplate\Project1\main.c
