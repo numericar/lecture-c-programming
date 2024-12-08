@@ -1,0 +1,3 @@
+Structure of c program
+    - ฟังก์ชัน main เป็นฟังก์ชันแรกที่จะทำงาน
+    - 1 project จะมีเพียง 1 main()
