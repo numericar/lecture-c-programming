@@ -1,3 +1,7 @@
+/*
+    This program will print your name on console screen
+*/
+
 #include <stdio.h>
 
 int main() 
