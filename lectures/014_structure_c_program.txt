@@ -1,3 +1,4 @@
 Structure of c program
     - ฟังก์ชัน main เป็นฟังก์ชันแรกที่จะทำงาน
     - 1 project จะมีเพียง 1 main()
+    - main(void) หมายถึงฟังก์ชัน main ไม่รับ parameter ใด ๆ
