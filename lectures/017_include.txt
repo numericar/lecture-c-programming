@@ -1,0 +1,9 @@
+Include
+    เป็นการบอก compiler ว่าเราจะทำการรวมชุดคำสั่งจากไฟล์ที่เราระบุ มาใส่ในไฟล์ของเรา
+    เช่น #include <stdio.h> เป็นการรวมชุดคำสั่งจากไฟล์ stdio.h
+
+    .h (header)
+        เป็นการระบุฟังก์ชันการทำงานทั้งหมดของไฟล์นั้น 
+        โดยสามารถมี typedef, function, structure
+
+    stdio.h = standart input outout library

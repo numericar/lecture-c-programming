@@ -10,3 +10,5 @@ Preprocessor
         - #endif
         - #else 
         - #ifndef
+
+    อะไรก็ตามที่ขึ้นต้นด้วย # นั่นคือคำสั่ง Preprocessor เช่น #include
