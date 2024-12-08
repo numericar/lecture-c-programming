@@ -1,1 +1,2 @@
+D:\GitHubs\lecture-c-programming\workspaces\WorkspaceTemplate\Project1\lecWarning.c
 D:\GitHubs\lecture-c-programming\workspaces\WorkspaceTemplate\Project1\main.c

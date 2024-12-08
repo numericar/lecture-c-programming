@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=mintr
-Date                   :=12/7/2024
+Date                   :=12/8/2024
 CodeLitePath           :=D:/CodeLite
 MakeDirCommand         :=mkdir -p
 LinkerName             :=C:/cygwin64/bin/gcc.exe
@@ -64,7 +64,7 @@ AS       := C:/cygwin64/bin/ar.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=D:\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/lecWarning.c$(ObjectSuffix) $(IntermediateDirectory)/main.c$(ObjectSuffix) 
 
 
 
@@ -95,6 +95,14 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/lecWarning.c$(ObjectSuffix): lecWarning.c $(IntermediateDirectory)/lecWarning.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "D:/GitHubs/lecture-c-programming/workspaces/WorkspaceTemplate/Project1/lecWarning.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/lecWarning.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/lecWarning.c$(DependSuffix): lecWarning.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/lecWarning.c$(ObjectSuffix) -MF$(IntermediateDirectory)/lecWarning.c$(DependSuffix) -MM lecWarning.c
+
+$(IntermediateDirectory)/lecWarning.c$(PreprocessSuffix): lecWarning.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/lecWarning.c$(PreprocessSuffix) lecWarning.c
+
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "D:/GitHubs/lecture-c-programming/workspaces/WorkspaceTemplate/Project1/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c

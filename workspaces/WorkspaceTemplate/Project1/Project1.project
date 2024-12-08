@@ -3,6 +3,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="lecWarning.c"/>
     <File Name="main.c"/>
   </VirtualDirectory>
   <Settings Type="Executable">
