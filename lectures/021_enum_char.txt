@@ -8,3 +8,6 @@ Enum and Char
 
         ตัวอย่าง 
             enum primaryColor { red, green, blue }
+
+    Char 
+        จัดเก็บตัวอักษรตัวเดียว เช่น 'a'
