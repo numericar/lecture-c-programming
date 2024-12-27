@@ -10,4 +10,4 @@ Enum and Char
             enum primaryColor { red, green, blue }
 
     Char 
-        จัดเก็บตัวอักษรตัวเดียว เช่น 'a'
+        จัดเก็บตัวอักษรตัวเดียว เช่น 'a' 
