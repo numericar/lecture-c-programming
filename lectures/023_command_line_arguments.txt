@@ -1,0 +1,5 @@
+Command line arguments
+    เป็นการส่งข้อมูลเข้ามาในโปรแกรมของเราผ่าน terminal ในขึ้นตอนการรันโปรแกรม
+    โดนใน function main จะแบ่งค่าที่รับจาก terminal เป็น 2 ตัว คือ 
+        1. int argc (argument cound) จัดเก็บจำนวนข้อมูลที่ถูกส่งเข้าในมาผ่าน terminal
+        2. char *argv[] (argument value) จัดเก็บข้อมูลที่ถูกส่งเข้าในทั้งหมด
