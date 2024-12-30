@@ -17,3 +17,5 @@ Operator
     **  note: example
         1 + 2 * 4 * foo.bar()     //Expression
         foo.voidFunc(1);          //Statement
+
+    ** assign เป็นการนำข้อมูลใส่เข้าในที่ตัวแปร
